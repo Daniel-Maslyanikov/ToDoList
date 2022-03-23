@@ -1,0 +1,112 @@
+* {
+	font-family: 'Ubuntu Mono', monospace;
+	color: #1e0a26;
+}
+
+body {
+	height: 100vh;
+	background: linear-gradient(-15deg, #805BA6, 
+	#D9AF62);
+	margin: 0;
+	padding: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	font-size: 46px;
+	background-color: blanchedalmond;
+	padding: 0 10px;
+	text-shadow: 1px 5px 5px rgba(38, 8, 46, 0.205);
+	border-radius: 12px;
+}
+
+h2 {
+	font-size: 25px;
+	background-color: blanchedalmond;
+	padding: 5px 10px;
+	text-shadow: 1px 5px 5px rgba(38, 8, 46, 0.205);
+	border-radius: 12px;
+}
+
+.wrapper {
+	width: 500px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin: 0 auto;
+}
+
+.wrapper header {
+	width: 100%;
+}
+
+.add-todo-wrapper {
+	width: 100%;
+	
+}
+
+.input-wrapper {
+	margin-bottom: 8px;
+}
+
+.input-wrapper input {
+	width: 100%;
+	border: 0;
+	padding: 10px 10px;
+	border-radius: 12px;
+	background-color: #f8e090;
+}
+
+.input-wrapper input::placeholder {
+	color:rgba(31, 10, 39, 0.678);
+	font-weight: 600;
+}
+
+.input-wrapper input:focus {
+	outline: 1px #1e0a261f solid;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.301)
+}
+
+.button-wrapper {
+	margin: 0 auto;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+}
+
+.button-wrapper button {
+	font-family: 'Ubuntu Mono', monospace;
+	font-size: 15px;
+	font-weight: 600;
+	width: 100%;
+	background-color: #a65af1;
+	outline: none;
+	border: none;
+	height: 25px;
+	cursor: pointer;
+	text-shadow: 1px 5px 5px rgba(38, 8, 46, 0.185);
+	border-radius: 12px;
+}
+
+.btn:hover {
+	transform: translateY(1px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+	transform: translateY(2px);
+}
+
+.btn:focus {
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.308)
+}
+
+.todos-wrapper {
+
+}
